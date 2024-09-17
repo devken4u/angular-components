@@ -20,6 +20,7 @@ import { FahrenheittocelsiusComponent } from './components/fahrenheittocelsius/f
 import { BookmarklistComponent } from './components/bookmarklist/bookmarklist.component';
 import { CharactercounterComponent } from './components/charactercounter/charactercounter.component';
 import { PalindromecheckerComponent } from './components/palindromechecker/palindromechecker.component';
+import { TemperatureconverterComponent } from './components/temperatureconverter/temperatureconverter.component';
 
 export const routes: Routes = [
   { path: '', component: HomeComponent },
@@ -43,4 +44,5 @@ export const routes: Routes = [
   { path: 'bookmarkList', component: BookmarklistComponent },
   { path: 'characterCounter', component: CharactercounterComponent },
   { path: 'palindromeChecker', component: PalindromecheckerComponent },
+  { path: 'temperatureConverter', component: TemperatureconverterComponent },
 ];

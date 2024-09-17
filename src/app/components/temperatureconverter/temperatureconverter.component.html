@@ -1,0 +1,16 @@
+<header style="border-bottom: 2.5px solid black; padding: 20px 0">
+  <a [routerLink]="['']">Back to home</a>
+</header>
+
+<main>
+  <input #temperatureInput type="number" placeholder="Enter temperature" />
+  <br />
+  <button (click)="CelsiusToFahrenheit(temperatureInput)">
+    Celsius to Fahrenheit
+  </button>
+  <br />
+  <button (click)="FahrenheitToCelsius(temperatureInput)">
+    Fahrenheit to Celsius
+  </button>
+  <h1>{{ temperature }}</h1>
+</main>
