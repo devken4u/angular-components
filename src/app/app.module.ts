@@ -20,6 +20,7 @@ import { WordreverserComponent } from './components/wordreverser/wordreverser.co
 import { ShowdateComponent } from './components/showdate/showdate.component';
 import { ShowusernameComponent } from './components/showusername/showusername.component';
 import { MultiplicationtableComponent } from './components/multiplicationtable/multiplicationtable.component';
+import { SimpleloginComponent } from './components/simplelogin/simplelogin.component';
 
 @NgModule({
   declarations: [
@@ -40,6 +41,7 @@ import { MultiplicationtableComponent } from './components/multiplicationtable/m
     ShowdateComponent,
     ShowusernameComponent,
     MultiplicationtableComponent,
+    SimpleloginComponent
   ],
   imports: [BrowserModule, FormsModule, RouterModule.forRoot(routes)],
   providers: [],

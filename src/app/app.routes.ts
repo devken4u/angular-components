@@ -15,6 +15,7 @@ import { WordreverserComponent } from './components/wordreverser/wordreverser.co
 import { ShowdateComponent } from './components/showdate/showdate.component';
 import { ShowusernameComponent } from './components/showusername/showusername.component';
 import { MultiplicationtableComponent } from './components/multiplicationtable/multiplicationtable.component';
+import { SimpleloginComponent } from './components/simplelogin/simplelogin.component';
 
 export const routes: Routes = [
   { path: '', component: HomeComponent },
@@ -33,4 +34,5 @@ export const routes: Routes = [
   { path: 'showDate', component: ShowdateComponent },
   { path: 'showUsername', component: ShowusernameComponent },
   { path: 'multiplicationTable', component: MultiplicationtableComponent },
+  { path: 'simpleLogin', component: SimpleloginComponent },
 ];
