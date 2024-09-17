@@ -1,0 +1,10 @@
+<header style="border-bottom: 2.5px solid black; padding: 20px 0">
+  <a [routerLink]="['']">Back to home</a>
+</header>
+
+<main>
+  <input #birthdate type="date" />
+  <br />
+  <button (click)="showAge(birthdate)">Show age</button>
+  <h1>Age: {{ age }}</h1>
+</main>

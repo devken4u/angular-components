@@ -10,6 +10,7 @@ import { ShowhellobuttonComponent } from './components/showhellobutton/showhello
 import { DisplaynameComponent } from './components/displayname/displayname.component';
 import { CounterComponent } from './components/counter/counter.component';
 import { SimpleformComponent } from './components/simpleform/simpleform.component';
+import { UserageComponent } from './components/userage/userage.component';
 
 @NgModule({
   declarations: [
@@ -20,6 +21,7 @@ import { SimpleformComponent } from './components/simpleform/simpleform.componen
     DisplaynameComponent,
     CounterComponent,
     SimpleformComponent,
+    UserageComponent
   ],
   imports: [BrowserModule, FormsModule, RouterModule.forRoot(routes)],
   providers: [],
