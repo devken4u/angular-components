@@ -1,0 +1,9 @@
+<header style="border-bottom: 2.5px solid black; padding: 20px 0">
+  <a [routerLink]="['']">Back to home</a>
+</header>
+
+<main>
+  <input #nameInput type="text" placeholder="Enter your name" />
+  <button (click)="showName(nameInput)">Show name</button>
+  <h1>{{ name }}</h1>
+</main>
