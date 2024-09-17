@@ -2,13 +2,13 @@ import { NgModule } from '@angular/core';
 import { RouterModule } from '@angular/router';
 import { BrowserModule } from '@angular/platform-browser';
 import { routes } from './app.routes';
-
+import { FormsModule } from '@angular/forms';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './components/home/home.component';
 import { DisplayhelloworldComponent } from './components/displayhelloworld/displayhelloworld.component';
 import { ShowhellobuttonComponent } from './components/showhellobutton/showhellobutton.component';
 import { DisplaynameComponent } from './components/displayname/displayname.component';
-import { FormsModule } from '@angular/forms';
+import { CounterComponent } from './components/counter/counter.component';
 
 @NgModule({
   declarations: [
@@ -17,6 +17,7 @@ import { FormsModule } from '@angular/forms';
     DisplayhelloworldComponent,
     ShowhellobuttonComponent,
     DisplaynameComponent,
+    CounterComponent,
   ],
   imports: [BrowserModule, FormsModule, RouterModule.forRoot(routes)],
   providers: [],
