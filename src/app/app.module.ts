@@ -16,6 +16,7 @@ import { CalculatorComponent } from './components/calculator/calculator.componen
 import { TextlengthComponent } from './components/textlength/textlength.component';
 import { CurrencyconverterComponent } from './components/currencyconverter/currencyconverter.component';
 import { EvenoddcheckerComponent } from './components/evenoddchecker/evenoddchecker.component';
+import { WordreverserComponent } from './components/wordreverser/wordreverser.component';
 
 @NgModule({
   declarations: [
@@ -32,6 +33,7 @@ import { EvenoddcheckerComponent } from './components/evenoddchecker/evenoddchec
     TextlengthComponent,
     CurrencyconverterComponent,
     EvenoddcheckerComponent,
+    WordreverserComponent,
   ],
   imports: [BrowserModule, FormsModule, RouterModule.forRoot(routes)],
   providers: [],
