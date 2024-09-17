@@ -1,0 +1,9 @@
+<header style="border-bottom: 2.5px solid black; padding: 20px 0">
+  <a [routerLink]="['']">Back to home</a>
+</header>
+
+<main>
+  <input #textInput type="text" placeholder="Enter text" />
+  <button (click)="check(textInput)">Check</button>
+  <h1>Palindrome: {{ isPalindrome }}</h1>
+</main>
