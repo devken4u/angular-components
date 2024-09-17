@@ -1,0 +1,9 @@
+<header style="border-bottom: 2.5px solid black; padding: 20px 0">
+  <a [routerLink]="['']">Back to home</a>
+</header>
+
+<main>
+  <input #fahrenheit type="number" placeholder="Enter fahrenheit" />
+  <button (click)="convert(fahrenheit)">Convert</button>
+  <h1>Celsius: {{ celsius }}</h1>
+</main>
