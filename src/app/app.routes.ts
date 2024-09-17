@@ -18,6 +18,7 @@ import { MultiplicationtableComponent } from './components/multiplicationtable/m
 import { SimpleloginComponent } from './components/simplelogin/simplelogin.component';
 import { FahrenheittocelsiusComponent } from './components/fahrenheittocelsius/fahrenheittocelsius.component';
 import { BookmarklistComponent } from './components/bookmarklist/bookmarklist.component';
+import { CharactercounterComponent } from './components/charactercounter/charactercounter.component';
 
 export const routes: Routes = [
   { path: '', component: HomeComponent },
@@ -39,4 +40,5 @@ export const routes: Routes = [
   { path: 'simpleLogin', component: SimpleloginComponent },
   { path: 'fahrenheitToCelsius', component: FahrenheittocelsiusComponent },
   { path: 'bookmarkList', component: BookmarklistComponent },
+  { path: 'characterCounter', component: CharactercounterComponent },
 ];

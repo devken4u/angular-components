@@ -1,0 +1,11 @@
+<header style="border-bottom: 2.5px solid black; padding: 20px 0">
+  <a [routerLink]="['']">Back to home</a>
+</header>
+
+<main>
+  <main>
+    <input #textInput type="text" placeholder="Enter a text" />
+    <button (click)="getCharCount(textInput)">Get length</button>
+    <h1>Character Count: {{ charCount }}</h1>
+  </main>
+</main>
