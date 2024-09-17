@@ -13,6 +13,7 @@ import { SimpleformComponent } from './components/simpleform/simpleform.componen
 import { UserageComponent } from './components/userage/userage.component';
 import { UsergreetingComponent } from './components/usergreeting/usergreeting.component';
 import { CalculatorComponent } from './components/calculator/calculator.component';
+import { TextlengthComponent } from './components/textlength/textlength.component';
 
 @NgModule({
   declarations: [
@@ -26,6 +27,7 @@ import { CalculatorComponent } from './components/calculator/calculator.componen
     UserageComponent,
     UsergreetingComponent,
     CalculatorComponent,
+    TextlengthComponent,
   ],
   imports: [BrowserModule, FormsModule, RouterModule.forRoot(routes)],
   providers: [],

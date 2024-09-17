@@ -1,0 +1,9 @@
+<header style="border-bottom: 2.5px solid black; padding: 20px 0">
+  <a [routerLink]="['']">Back to home</a>
+</header>
+
+<main>
+  <input #textInput type="text" placeholder="Enter a text" />
+  <button (click)="getLength(textInput)">Get length</button>
+  <h1>Length: {{textLength}}</h1>
+</main>
