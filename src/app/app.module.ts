@@ -14,6 +14,7 @@ import { UserageComponent } from './components/userage/userage.component';
 import { UsergreetingComponent } from './components/usergreeting/usergreeting.component';
 import { CalculatorComponent } from './components/calculator/calculator.component';
 import { TextlengthComponent } from './components/textlength/textlength.component';
+import { CurrencyconverterComponent } from './components/currencyconverter/currencyconverter.component';
 
 @NgModule({
   declarations: [
@@ -28,6 +29,7 @@ import { TextlengthComponent } from './components/textlength/textlength.componen
     UsergreetingComponent,
     CalculatorComponent,
     TextlengthComponent,
+    CurrencyconverterComponent,
   ],
   imports: [BrowserModule, FormsModule, RouterModule.forRoot(routes)],
   providers: [],

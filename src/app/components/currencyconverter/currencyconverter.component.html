@@ -1,0 +1,9 @@
+<header style="border-bottom: 2.5px solid black; padding: 20px 0">
+  <a [routerLink]="['']">Back to home</a>
+</header>
+
+<main>
+  <input #valueInput type="number" placeholder="Enter Philippines Peso" />
+  <button (click)="convert(valueInput)">Convert</button>
+  <h1>Php to Dollar: {{ convertedValue }}</h1>
+</main>
