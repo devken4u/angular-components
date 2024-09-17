@@ -19,6 +19,7 @@ import { EvenoddcheckerComponent } from './components/evenoddchecker/evenoddchec
 import { WordreverserComponent } from './components/wordreverser/wordreverser.component';
 import { ShowdateComponent } from './components/showdate/showdate.component';
 import { ShowusernameComponent } from './components/showusername/showusername.component';
+import { MultiplicationtableComponent } from './components/multiplicationtable/multiplicationtable.component';
 
 @NgModule({
   declarations: [
@@ -38,6 +39,7 @@ import { ShowusernameComponent } from './components/showusername/showusername.co
     WordreverserComponent,
     ShowdateComponent,
     ShowusernameComponent,
+    MultiplicationtableComponent,
   ],
   imports: [BrowserModule, FormsModule, RouterModule.forRoot(routes)],
   providers: [],

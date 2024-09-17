@@ -1,0 +1,13 @@
+<header style="border-bottom: 2.5px solid black; padding: 20px 0">
+  <a [routerLink]="['']">Back to home</a>
+</header>
+
+<main>
+  <input #numberInput type="number" />
+  <button (click)="showMultiplicationTable(numberInput)">
+    Show Multiplication Table
+  </button>
+  @for (item of table; track $index) {
+  <p>{{ item }}</p>
+  }
+</main>
