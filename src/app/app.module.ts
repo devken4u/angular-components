@@ -22,6 +22,7 @@ import { ShowusernameComponent } from './components/showusername/showusername.co
 import { MultiplicationtableComponent } from './components/multiplicationtable/multiplicationtable.component';
 import { SimpleloginComponent } from './components/simplelogin/simplelogin.component';
 import { FahrenheittocelsiusComponent } from './components/fahrenheittocelsius/fahrenheittocelsius.component';
+import { BookmarklistComponent } from './components/bookmarklist/bookmarklist.component';
 
 @NgModule({
   declarations: [
@@ -44,6 +45,7 @@ import { FahrenheittocelsiusComponent } from './components/fahrenheittocelsius/f
     MultiplicationtableComponent,
     SimpleloginComponent,
     FahrenheittocelsiusComponent,
+    BookmarklistComponent,
   ],
   imports: [BrowserModule, FormsModule, RouterModule.forRoot(routes)],
   providers: [],
