@@ -1,0 +1,15 @@
+<header style="border-bottom: 2.5px solid black; padding: 20px 0">
+  <a [routerLink]="['']">Back to home</a>
+</header>
+
+<main>
+  <input type="number" #number1 placeholder="Enter number 1" />
+  <br />
+  <input type="number" #number2 placeholder="Enter number 2" />
+  <br />
+  <button (click)="multiply(number1, number2)">Multiply</button>
+  <button (click)="divide(number1, number2)">Divide</button>
+  <button (click)="add(number1, number2)">Add</button>
+  <button (click)="subtract(number1, number2)">Subtract</button>
+  <p>Result: {{ result }}</p>
+</main>
