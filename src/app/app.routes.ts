@@ -4,6 +4,7 @@ import { DisplayhelloworldComponent } from './components/displayhelloworld/displ
 import { ShowhellobuttonComponent } from './components/showhellobutton/showhellobutton.component';
 import { DisplaynameComponent } from './components/displayname/displayname.component';
 import { CounterComponent } from './components/counter/counter.component';
+import { SimpleformComponent } from './components/simpleform/simpleform.component';
 
 export const routes: Routes = [
   { path: '', component: HomeComponent },
@@ -11,4 +12,5 @@ export const routes: Routes = [
   { path: 'showHelloButton', component: ShowhellobuttonComponent },
   { path: 'displayName', component: DisplaynameComponent },
   { path: 'counter', component: CounterComponent },
+  { path: 'simpleForm', component: SimpleformComponent },
 ];

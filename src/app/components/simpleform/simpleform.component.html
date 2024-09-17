@@ -1,0 +1,20 @@
+<header style="border-bottom: 2.5px solid black; padding: 20px 0">
+  <a [routerLink]="['']">Back to home</a>
+</header>
+
+<main>
+  <form (ngSubmit)="submit(firstnameInput, lastnameInput, addressInput)">
+    <input #firstnameInput type="text" placeholder="Firstname" />
+    <br />
+    <input #lastnameInput type="text" placeholder="Lastname" />
+    <br />
+    <input #addressInput type="text" placeholder="Address" />
+    <br />
+    <button type="submit">Submit</button>
+  </form>
+  <div>
+    <h1>Firstname: {{ firstname }}</h1>
+    <h1>Lastname: {{ lastname }}</h1>
+    <h1>Address: {{ address }}</h1>
+  </div>
+</main>
