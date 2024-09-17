@@ -1,0 +1,9 @@
+<header style="border-bottom: 2.5px solid black; padding: 20px 0">
+  <a [routerLink]="['']">Back to home</a>
+</header>
+
+<main>
+  <input #usernameInput type="text" />
+  <button (click)="showUsername(usernameInput)">Show username</button>
+  <h1>Username: {{ username }}</h1>
+</main>
