@@ -51,6 +51,7 @@ import { CountconsonantsComponent } from './components/countconsonants/countcons
 import { HourstominutesconverterComponent } from './components/hourstominutesconverter/hourstominutesconverter.component';
 import { AreaofcircleComponent } from './components/areaofcircle/areaofcircle.component';
 import { CapitalizewordComponent } from './components/capitalizeword/capitalizeword.component';
+import { AverageoffivenumbersComponent } from './components/averageoffivenumbers/averageoffivenumbers.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -100,7 +101,8 @@ import { CapitalizewordComponent } from './components/capitalizeword/capitalizew
     CountconsonantsComponent,
     HourstominutesconverterComponent,
     AreaofcircleComponent,
-    CapitalizewordComponent
+    CapitalizewordComponent,
+    AverageoffivenumbersComponent
   ],
   imports: [BrowserModule, FormsModule, RouterModule.forRoot(routes)],
   providers: [],

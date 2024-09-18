@@ -1,0 +1,15 @@
+<header style="border-bottom: 2.5px solid black; padding: 20px 0">
+  <a [routerLink]="['']">Back to home</a>
+</header>
+
+<main>
+  <input type="number" placeholder="Number 1" #number1 /> <br />
+  <input type="number" placeholder="Number 2" #number2 /> <br />
+  <input type="number" placeholder="Number 3" #number3 /> <br />
+  <input type="number" placeholder="Number 4" #number4 /> <br />
+  <input type="number" placeholder="Number 5" #number5 /> <br />
+  <button (click)="calculate(number1, number2, number3, number4, number5)">
+    calculate
+  </button>
+  <h1>Average: {{ average }}</h1>
+</main>

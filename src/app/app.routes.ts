@@ -46,6 +46,7 @@ import { CountconsonantsComponent } from './components/countconsonants/countcons
 import { HourstominutesconverterComponent } from './components/hourstominutesconverter/hourstominutesconverter.component';
 import { AreaofcircleComponent } from './components/areaofcircle/areaofcircle.component';
 import { CapitalizewordComponent } from './components/capitalizeword/capitalizeword.component';
+import { AverageoffivenumbersComponent } from './components/averageoffivenumbers/averageoffivenumbers.component';
 
 export const routes: Routes = [
   { path: '', component: HomeComponent },
@@ -98,4 +99,5 @@ export const routes: Routes = [
   { path: 'hoursToMinutesConverter', component: HourstominutesconverterComponent },
   { path: 'areaOfCircle', component: AreaofcircleComponent },
   { path: 'capitalizeWord', component: CapitalizewordComponent },
+  { path: 'averageOfFiveNumbers', component: AverageoffivenumbersComponent },
 ];
