@@ -1,0 +1,9 @@
+<header style="border-bottom: 2.5px solid black; padding: 20px 0">
+  <a [routerLink]="['']">Back to home</a>
+</header>
+
+<main>
+  <input #numberInput type="number" placeholder="Enter number" />
+  <button (click)="calculate(numberInput)">calculate</button>
+  <h1>Sum of even numbers: {{ result }}</h1>
+</main>

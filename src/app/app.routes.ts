@@ -40,6 +40,7 @@ import { CurrencyformatterComponent } from './components/currencyformatter/curre
 import { RandomquotedisplayComponent } from './components/randomquotedisplay/randomquotedisplay.component';
 import { UppercasegreetingComponent } from './components/uppercasegreeting/uppercasegreeting.component';
 import { DivisiblecheckerComponent } from './components/divisiblechecker/divisiblechecker.component';
+import { EvensumcalculatorComponent } from './components/evensumcalculator/evensumcalculator.component';
 
 export const routes: Routes = [
   { path: '', component: HomeComponent },
@@ -86,4 +87,5 @@ export const routes: Routes = [
   { path: 'randomQuoteDisplay', component: RandomquotedisplayComponent },
   { path: 'uppercaseGreeting', component: UppercasegreetingComponent },
   { path: 'divisibleChecker', component: DivisiblecheckerComponent },
+  { path: 'evenSumCalculator', component: EvensumcalculatorComponent },
 ];

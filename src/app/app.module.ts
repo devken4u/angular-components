@@ -45,6 +45,7 @@ import { CurrencyformatterComponent } from './components/currencyformatter/curre
 import { RandomquotedisplayComponent } from './components/randomquotedisplay/randomquotedisplay.component';
 import { UppercasegreetingComponent } from './components/uppercasegreeting/uppercasegreeting.component';
 import { DivisiblecheckerComponent } from './components/divisiblechecker/divisiblechecker.component';
+import { EvensumcalculatorComponent } from './components/evensumcalculator/evensumcalculator.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -88,7 +89,8 @@ import { DivisiblecheckerComponent } from './components/divisiblechecker/divisib
     CurrencyformatterComponent,
     RandomquotedisplayComponent,
     UppercasegreetingComponent,
-    DivisiblecheckerComponent
+    DivisiblecheckerComponent,
+    EvensumcalculatorComponent
   ],
   imports: [BrowserModule, FormsModule, RouterModule.forRoot(routes)],
   providers: [],
