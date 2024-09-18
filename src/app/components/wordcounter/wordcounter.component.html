@@ -1,0 +1,9 @@
+<header style="border-bottom: 2.5px solid black; padding: 20px 0">
+  <a [routerLink]="['']">Back to home</a>
+</header>
+
+<main>
+  <input #textInput placeholder="Enter your text" type="text" />
+  <button (click)="count(textInput)">Count word(s)</button>
+  <h1>Word Count: {{ wordCount }}</h1>
+</main>
