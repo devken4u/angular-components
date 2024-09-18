@@ -54,6 +54,7 @@ import { CapitalizewordComponent } from './components/capitalizeword/capitalizew
 import { AverageoffivenumbersComponent } from './components/averageoffivenumbers/averageoffivenumbers.component';
 import { FindlargestnumberComponent } from './components/findlargestnumber/findlargestnumber.component';
 import { FindsmallestnumberComponent } from './components/findsmallestnumber/findsmallestnumber.component';
+import { LargestwordinsentenceComponent } from './components/largestwordinsentence/largestwordinsentence.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -106,7 +107,8 @@ import { FindsmallestnumberComponent } from './components/findsmallestnumber/fin
     CapitalizewordComponent,
     AverageoffivenumbersComponent,
     FindlargestnumberComponent,
-    FindsmallestnumberComponent
+    FindsmallestnumberComponent,
+    LargestwordinsentenceComponent
   ],
   imports: [BrowserModule, FormsModule, RouterModule.forRoot(routes)],
   providers: [],

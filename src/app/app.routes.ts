@@ -49,6 +49,7 @@ import { CapitalizewordComponent } from './components/capitalizeword/capitalizew
 import { AverageoffivenumbersComponent } from './components/averageoffivenumbers/averageoffivenumbers.component';
 import { FindlargestnumberComponent } from './components/findlargestnumber/findlargestnumber.component';
 import { FindsmallestnumberComponent } from './components/findsmallestnumber/findsmallestnumber.component';
+import { LargestwordinsentenceComponent } from './components/largestwordinsentence/largestwordinsentence.component';
 
 export const routes: Routes = [
   { path: '', component: HomeComponent },
@@ -98,10 +99,14 @@ export const routes: Routes = [
   { path: 'evenSumCalculator', component: EvensumcalculatorComponent },
   { path: 'countVowels', component: CountvowelsComponent },
   { path: 'countConsonants', component: CountconsonantsComponent },
-  { path: 'hoursToMinutesConverter', component: HourstominutesconverterComponent },
+  {
+    path: 'hoursToMinutesConverter',
+    component: HourstominutesconverterComponent,
+  },
   { path: 'areaOfCircle', component: AreaofcircleComponent },
   { path: 'capitalizeWord', component: CapitalizewordComponent },
   { path: 'averageOfFiveNumbers', component: AverageoffivenumbersComponent },
   { path: 'findLargestNumber', component: FindlargestnumberComponent },
   { path: 'findSmallestNumber', component: FindsmallestnumberComponent },
+  { path: 'largestWordInSentence', component: LargestwordinsentenceComponent },
 ];
