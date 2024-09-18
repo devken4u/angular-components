@@ -38,6 +38,7 @@ import { WordshufflerComponent } from './components/wordshuffler/wordshuffler.co
 import { BmisolverComponent } from './components/bmisolver/bmisolver.component';
 import { UsernamevalidatorComponent } from './components/usernamevalidator/usernamevalidator.component';
 import { InterestcalculatorComponent } from './components/interestcalculator/interestcalculator.component';
+import { CompoundinterestcalculatorComponent } from './components/compoundinterestcalculator/compoundinterestcalculator.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -74,7 +75,8 @@ import { InterestcalculatorComponent } from './components/interestcalculator/int
     WordshufflerComponent,
     BmisolverComponent,
     UsernamevalidatorComponent,
-    InterestcalculatorComponent
+    InterestcalculatorComponent,
+    CompoundinterestcalculatorComponent
   ],
   imports: [BrowserModule, FormsModule, RouterModule.forRoot(routes)],
   providers: [],
