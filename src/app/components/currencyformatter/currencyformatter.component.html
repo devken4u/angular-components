@@ -1,0 +1,12 @@
+<header style="border-bottom: 2.5px solid black; padding: 20px 0">
+  <a [routerLink]="['']">Back to home</a>
+</header>
+
+<main>
+        <input #numberInput type="number" placeholder="Enter value in php">
+        <button (click)="format(numberInput)">format</button> 
+        <ul>
+            <li>Dollar: {{dollar}}</li>
+            <li>Euro: {{euro}}</li>
+        </ul>
+</main>
