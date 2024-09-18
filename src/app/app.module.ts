@@ -32,6 +32,7 @@ import { TodomanagerComponent } from './components/todomanager/todomanager.compo
 import { GuessnumbergameComponent } from './components/guessnumbergame/guessnumbergame.component';
 import { WordcounterComponent } from './components/wordcounter/wordcounter.component';
 import { RandomnumbergeneratorComponent } from './components/randomnumbergenerator/randomnumbergenerator.component';
+import { MultiplicationcheckerComponent } from './components/multiplicationchecker/multiplicationchecker.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -62,7 +63,8 @@ import { RandomnumbergeneratorComponent } from './components/randomnumbergenerat
     TodomanagerComponent,
     GuessnumbergameComponent,
     WordcounterComponent,
-    RandomnumbergeneratorComponent
+    RandomnumbergeneratorComponent,
+    MultiplicationcheckerComponent
   ],
   imports: [BrowserModule, FormsModule, RouterModule.forRoot(routes)],
   providers: [],

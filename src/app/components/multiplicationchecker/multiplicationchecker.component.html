@@ -1,0 +1,10 @@
+<header style="border-bottom: 2.5px solid black; padding: 20px 0">
+  <a [routerLink]="['']">Back to home</a>
+</header>
+
+<main>
+  <input #numberInput type="number" placeholder="Enter number" />
+  <input #multipleInput type="number" placeholder="Multiple" />
+  <button (click)="check(numberInput, multipleInput)">check</button>
+  <h1>Result: {{result}}</h1>
+</main>
