@@ -1,0 +1,9 @@
+<header style="border-bottom: 2.5px solid black; padding: 20px 0">
+  <a [routerLink]="['']">Back to home</a>
+</header>
+
+<main>
+  <input type="number" placeholder="Enter radius" #radius />
+  <button (click)="calculate(radius)">calculate</button>
+  <h1>Area: {{ area }}</h1>
+</main>

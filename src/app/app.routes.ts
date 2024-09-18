@@ -44,6 +44,7 @@ import { EvensumcalculatorComponent } from './components/evensumcalculator/evens
 import { CountvowelsComponent } from './components/countvowels/countvowels.component';
 import { CountconsonantsComponent } from './components/countconsonants/countconsonants.component';
 import { HourstominutesconverterComponent } from './components/hourstominutesconverter/hourstominutesconverter.component';
+import { AreaofcircleComponent } from './components/areaofcircle/areaofcircle.component';
 
 export const routes: Routes = [
   { path: '', component: HomeComponent },
@@ -94,4 +95,5 @@ export const routes: Routes = [
   { path: 'countVowels', component: CountvowelsComponent },
   { path: 'countConsonants', component: CountconsonantsComponent },
   { path: 'hoursToMinutesConverter', component: HourstominutesconverterComponent },
+  { path: 'areaOfCircle', component: AreaofcircleComponent },
 ];

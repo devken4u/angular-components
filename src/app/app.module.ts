@@ -49,6 +49,7 @@ import { EvensumcalculatorComponent } from './components/evensumcalculator/evens
 import { CountvowelsComponent } from './components/countvowels/countvowels.component';
 import { CountconsonantsComponent } from './components/countconsonants/countconsonants.component';
 import { HourstominutesconverterComponent } from './components/hourstominutesconverter/hourstominutesconverter.component';
+import { AreaofcircleComponent } from './components/areaofcircle/areaofcircle.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -96,7 +97,8 @@ import { HourstominutesconverterComponent } from './components/hourstominutescon
     EvensumcalculatorComponent,
     CountvowelsComponent,
     CountconsonantsComponent,
-    HourstominutesconverterComponent
+    HourstominutesconverterComponent,
+    AreaofcircleComponent
   ],
   imports: [BrowserModule, FormsModule, RouterModule.forRoot(routes)],
   providers: [],
