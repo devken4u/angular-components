@@ -47,6 +47,7 @@ import { UppercasegreetingComponent } from './components/uppercasegreeting/upper
 import { DivisiblecheckerComponent } from './components/divisiblechecker/divisiblechecker.component';
 import { EvensumcalculatorComponent } from './components/evensumcalculator/evensumcalculator.component';
 import { CountvowelsComponent } from './components/countvowels/countvowels.component';
+import { CountconsonantsComponent } from './components/countconsonants/countconsonants.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -92,7 +93,8 @@ import { CountvowelsComponent } from './components/countvowels/countvowels.compo
     UppercasegreetingComponent,
     DivisiblecheckerComponent,
     EvensumcalculatorComponent,
-    CountvowelsComponent
+    CountvowelsComponent,
+    CountconsonantsComponent
   ],
   imports: [BrowserModule, FormsModule, RouterModule.forRoot(routes)],
   providers: [],
