@@ -48,6 +48,7 @@ import { DivisiblecheckerComponent } from './components/divisiblechecker/divisib
 import { EvensumcalculatorComponent } from './components/evensumcalculator/evensumcalculator.component';
 import { CountvowelsComponent } from './components/countvowels/countvowels.component';
 import { CountconsonantsComponent } from './components/countconsonants/countconsonants.component';
+import { HourstominutesconverterComponent } from './components/hourstominutesconverter/hourstominutesconverter.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -94,7 +95,8 @@ import { CountconsonantsComponent } from './components/countconsonants/countcons
     DivisiblecheckerComponent,
     EvensumcalculatorComponent,
     CountvowelsComponent,
-    CountconsonantsComponent
+    CountconsonantsComponent,
+    HourstominutesconverterComponent
   ],
   imports: [BrowserModule, FormsModule, RouterModule.forRoot(routes)],
   providers: [],

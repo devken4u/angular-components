@@ -43,6 +43,7 @@ import { DivisiblecheckerComponent } from './components/divisiblechecker/divisib
 import { EvensumcalculatorComponent } from './components/evensumcalculator/evensumcalculator.component';
 import { CountvowelsComponent } from './components/countvowels/countvowels.component';
 import { CountconsonantsComponent } from './components/countconsonants/countconsonants.component';
+import { HourstominutesconverterComponent } from './components/hourstominutesconverter/hourstominutesconverter.component';
 
 export const routes: Routes = [
   { path: '', component: HomeComponent },
@@ -92,4 +93,5 @@ export const routes: Routes = [
   { path: 'evenSumCalculator', component: EvensumcalculatorComponent },
   { path: 'countVowels', component: CountvowelsComponent },
   { path: 'countConsonants', component: CountconsonantsComponent },
+  { path: 'hoursToMinutesConverter', component: HourstominutesconverterComponent },
 ];

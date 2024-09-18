@@ -1,0 +1,9 @@
+<header style="border-bottom: 2.5px solid black; padding: 20px 0">
+    <a [routerLink]="['']">Back to home</a>
+  </header>
+
+  <main>
+    <input type="number" placeholder="Enter hour" #hour>
+    <button (click)="convert(hour)">convert</button>
+    <h1>{{result}}</h1>
+  </main>
