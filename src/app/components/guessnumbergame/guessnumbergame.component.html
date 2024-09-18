@@ -1,0 +1,11 @@
+<header style="border-bottom: 2.5px solid black; padding: 20px 0">
+  <a [routerLink]="['']">Back to home</a>
+</header>
+
+<main>
+  <h1>Instruction: Guess a random number from 1 to 10</h1>
+  <input #guessInput type="number" placeholder="Enter your guess" />
+  <button (click)="checkGuess(guessInput)">Check guess</button>
+  <h1>Result: {{ randomNumberPlaceholder }}</h1>
+  <button (click)="newRandomNumber()">Generate new number</button>
+</main>
