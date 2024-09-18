@@ -41,6 +41,7 @@ import { RandomquotedisplayComponent } from './components/randomquotedisplay/ran
 import { UppercasegreetingComponent } from './components/uppercasegreeting/uppercasegreeting.component';
 import { DivisiblecheckerComponent } from './components/divisiblechecker/divisiblechecker.component';
 import { EvensumcalculatorComponent } from './components/evensumcalculator/evensumcalculator.component';
+import { CountvowelsComponent } from './components/countvowels/countvowels.component';
 
 export const routes: Routes = [
   { path: '', component: HomeComponent },
@@ -88,4 +89,5 @@ export const routes: Routes = [
   { path: 'uppercaseGreeting', component: UppercasegreetingComponent },
   { path: 'divisibleChecker', component: DivisiblecheckerComponent },
   { path: 'evenSumCalculator', component: EvensumcalculatorComponent },
+  { path: 'countVowels', component: CountvowelsComponent },
 ];

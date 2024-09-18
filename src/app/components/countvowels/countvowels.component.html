@@ -1,0 +1,9 @@
+<header style="border-bottom: 2.5px solid black; padding: 20px 0">
+  <a [routerLink]="['']">Back to home</a>
+</header>
+
+<main>
+    <input type="text" placeholder="Enter text" #textInput>
+    <button (click)="count(textInput)">count</button>
+    <h1>Vowel Count: {{vowelCount}}</h1>
+</main>

@@ -46,6 +46,7 @@ import { RandomquotedisplayComponent } from './components/randomquotedisplay/ran
 import { UppercasegreetingComponent } from './components/uppercasegreeting/uppercasegreeting.component';
 import { DivisiblecheckerComponent } from './components/divisiblechecker/divisiblechecker.component';
 import { EvensumcalculatorComponent } from './components/evensumcalculator/evensumcalculator.component';
+import { CountvowelsComponent } from './components/countvowels/countvowels.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -90,7 +91,8 @@ import { EvensumcalculatorComponent } from './components/evensumcalculator/evens
     RandomquotedisplayComponent,
     UppercasegreetingComponent,
     DivisiblecheckerComponent,
-    EvensumcalculatorComponent
+    EvensumcalculatorComponent,
+    CountvowelsComponent
   ],
   imports: [BrowserModule, FormsModule, RouterModule.forRoot(routes)],
   providers: [],
