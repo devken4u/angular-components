@@ -1,0 +1,14 @@
+<header style="border-bottom: 2.5px solid black; padding: 20px 0">
+  <a [routerLink]="['']">Back to home</a>
+</header>
+
+<main>
+  <input #principal type="number" placeholder="Enter principal" />
+  <br />
+  <input #rate type="number" placeholder="Enter rate" />
+  <br />
+  <input #time type="number" placeholder="Enter time" />
+  <br />
+  <button (click)="calculate(principal, rate, time)">calculate</button>
+  <h1>Interest: {{ interest }}</h1>
+</main>
