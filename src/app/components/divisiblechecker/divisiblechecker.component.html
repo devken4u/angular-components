@@ -1,0 +1,12 @@
+<header style="border-bottom: 2.5px solid black; padding: 20px 0">
+  <a [routerLink]="['']">Back to home</a>
+</header>
+
+<main>
+  <input #number1 type="number" placeholder="Number 1" />
+  <br />
+  <input #number2 type="number" placeholder="Number 2" />
+  <br />
+  <button (click)="check(number1, number2)">check</button>
+  <h1>{{ result }}</h1>
+</main>
