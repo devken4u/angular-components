@@ -1,0 +1,13 @@
+<header style="border-bottom: 2.5px solid black; padding: 20px 0">
+  <a [routerLink]="['']">Back to home</a>
+</header>
+
+<main>
+  <ul>
+    <li>Username must be over or equal to 8 characters</li>
+    <li>Add at least 2 numeric</li>
+  </ul>
+  <input #usernameInput type="text" placeholder="Enter username" />
+  <button (click)="validate(usernameInput)">validate</button>
+  <h1>Result: {{ result }}</h1>
+</main>

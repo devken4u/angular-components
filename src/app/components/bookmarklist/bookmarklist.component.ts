@@ -6,7 +6,7 @@ import { Component } from '@angular/core';
   styleUrl: './bookmarklist.component.css',
 })
 export class BookmarklistComponent {
-  url: string = 'https://www.facebook.com';
+  url: string = '';
 
   display(url: HTMLInputElement) {
     this.url = url.value;

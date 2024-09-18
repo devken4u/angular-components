@@ -36,6 +36,7 @@ import { MultiplicationcheckerComponent } from './components/multiplicationcheck
 import { UppercaseconverterComponent } from './components/uppercaseconverter/uppercaseconverter.component';
 import { WordshufflerComponent } from './components/wordshuffler/wordshuffler.component';
 import { BmisolverComponent } from './components/bmisolver/bmisolver.component';
+import { UsernamevalidatorComponent } from './components/usernamevalidator/usernamevalidator.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -70,7 +71,8 @@ import { BmisolverComponent } from './components/bmisolver/bmisolver.component';
     MultiplicationcheckerComponent,
     UppercaseconverterComponent,
     WordshufflerComponent,
-    BmisolverComponent
+    BmisolverComponent,
+    UsernamevalidatorComponent
   ],
   imports: [BrowserModule, FormsModule, RouterModule.forRoot(routes)],
   providers: [],
