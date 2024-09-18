@@ -1,0 +1,20 @@
+<header style="border-bottom: 2.5px solid black; padding: 20px 0">
+  <a [routerLink]="['']">Back to home</a>
+</header>
+
+<main>
+  <h1>Items</h1>
+  <ol>
+    @for (item of items; track $index) {
+    <li>{{ item.name }}: {{ item.price }} Pesos</li>
+    <button (click)="addToCart(item)">Add to cart</button>
+    }
+  </ol>
+  <h1>Cart</h1>
+  <ol>
+    @for (item of shoppingList; track $index) {
+    <li>{{ item.name }}: {{ item.price }} Pesos</li>
+    <button (click)="removeFromCart($index)">remove</button>
+    }
+  </ol>
+</main>
