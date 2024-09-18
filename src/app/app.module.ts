@@ -50,6 +50,7 @@ import { CountvowelsComponent } from './components/countvowels/countvowels.compo
 import { CountconsonantsComponent } from './components/countconsonants/countconsonants.component';
 import { HourstominutesconverterComponent } from './components/hourstominutesconverter/hourstominutesconverter.component';
 import { AreaofcircleComponent } from './components/areaofcircle/areaofcircle.component';
+import { CapitalizewordComponent } from './components/capitalizeword/capitalizeword.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -98,7 +99,8 @@ import { AreaofcircleComponent } from './components/areaofcircle/areaofcircle.co
     CountvowelsComponent,
     CountconsonantsComponent,
     HourstominutesconverterComponent,
-    AreaofcircleComponent
+    AreaofcircleComponent,
+    CapitalizewordComponent
   ],
   imports: [BrowserModule, FormsModule, RouterModule.forRoot(routes)],
   providers: [],

@@ -45,6 +45,7 @@ import { CountvowelsComponent } from './components/countvowels/countvowels.compo
 import { CountconsonantsComponent } from './components/countconsonants/countconsonants.component';
 import { HourstominutesconverterComponent } from './components/hourstominutesconverter/hourstominutesconverter.component';
 import { AreaofcircleComponent } from './components/areaofcircle/areaofcircle.component';
+import { CapitalizewordComponent } from './components/capitalizeword/capitalizeword.component';
 
 export const routes: Routes = [
   { path: '', component: HomeComponent },
@@ -96,4 +97,5 @@ export const routes: Routes = [
   { path: 'countConsonants', component: CountconsonantsComponent },
   { path: 'hoursToMinutesConverter', component: HourstominutesconverterComponent },
   { path: 'areaOfCircle', component: AreaofcircleComponent },
+  { path: 'capitalizeWord', component: CapitalizewordComponent },
 ];
