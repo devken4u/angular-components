@@ -1,0 +1,13 @@
+<header style="border-bottom: 2.5px solid black; padding: 20px 0">
+  <a [routerLink]="['']">Back to home</a>
+</header>
+
+<main>
+  <input #n type="number" placeholder="Enter fibonacci length" />
+  <button (click)="generate(n)">generate</button>
+  <ul>
+    @for (item of fibonacciNumbers; track $index) {
+    <li>{{ item }}</li>
+    }
+  </ul>
+</main>
