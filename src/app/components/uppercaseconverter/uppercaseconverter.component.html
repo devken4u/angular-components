@@ -1,0 +1,9 @@
+<header style="border-bottom: 2.5px solid black; padding: 20px 0">
+  <a [routerLink]="['']">Back to home</a>
+</header>
+
+<main>
+    <input #textInput type="text" placeholder="Enter text">
+    <button (click)="convert(textInput)">convert</button>
+    <h1>{{converted}}</h1>
+</main>

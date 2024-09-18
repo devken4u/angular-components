@@ -33,6 +33,7 @@ import { GuessnumbergameComponent } from './components/guessnumbergame/guessnumb
 import { WordcounterComponent } from './components/wordcounter/wordcounter.component';
 import { RandomnumbergeneratorComponent } from './components/randomnumbergenerator/randomnumbergenerator.component';
 import { MultiplicationcheckerComponent } from './components/multiplicationchecker/multiplicationchecker.component';
+import { UppercaseconverterComponent } from './components/uppercaseconverter/uppercaseconverter.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -64,7 +65,8 @@ import { MultiplicationcheckerComponent } from './components/multiplicationcheck
     GuessnumbergameComponent,
     WordcounterComponent,
     RandomnumbergeneratorComponent,
-    MultiplicationcheckerComponent
+    MultiplicationcheckerComponent,
+    UppercaseconverterComponent
   ],
   imports: [BrowserModule, FormsModule, RouterModule.forRoot(routes)],
   providers: [],
