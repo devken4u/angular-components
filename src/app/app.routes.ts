@@ -26,6 +26,7 @@ import { FactorialcalculatorComponent } from './components/factorialcalculator/f
 import { TodomanagerComponent } from './components/todomanager/todomanager.component';
 import { GuessnumbergameComponent } from './components/guessnumbergame/guessnumbergame.component';
 import { WordcounterComponent } from './components/wordcounter/wordcounter.component';
+import { RandomnumbergeneratorComponent } from './components/randomnumbergenerator/randomnumbergenerator.component';
 
 export const routes: Routes = [
   { path: '', component: HomeComponent },
@@ -55,4 +56,5 @@ export const routes: Routes = [
   { path: 'todoManager', component: TodomanagerComponent },
   { path: 'guessNumberGame', component: GuessnumbergameComponent },
   { path: 'wordCounter', component: WordcounterComponent },
+  { path: 'randomNumberGenerator', component: RandomnumbergeneratorComponent },
 ];
