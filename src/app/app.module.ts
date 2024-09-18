@@ -52,6 +52,7 @@ import { HourstominutesconverterComponent } from './components/hourstominutescon
 import { AreaofcircleComponent } from './components/areaofcircle/areaofcircle.component';
 import { CapitalizewordComponent } from './components/capitalizeword/capitalizeword.component';
 import { AverageoffivenumbersComponent } from './components/averageoffivenumbers/averageoffivenumbers.component';
+import { FindlargestnumberComponent } from './components/findlargestnumber/findlargestnumber.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -102,7 +103,8 @@ import { AverageoffivenumbersComponent } from './components/averageoffivenumbers
     HourstominutesconverterComponent,
     AreaofcircleComponent,
     CapitalizewordComponent,
-    AverageoffivenumbersComponent
+    AverageoffivenumbersComponent,
+    FindlargestnumberComponent
   ],
   imports: [BrowserModule, FormsModule, RouterModule.forRoot(routes)],
   providers: [],
