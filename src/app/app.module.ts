@@ -53,6 +53,7 @@ import { AreaofcircleComponent } from './components/areaofcircle/areaofcircle.co
 import { CapitalizewordComponent } from './components/capitalizeword/capitalizeword.component';
 import { AverageoffivenumbersComponent } from './components/averageoffivenumbers/averageoffivenumbers.component';
 import { FindlargestnumberComponent } from './components/findlargestnumber/findlargestnumber.component';
+import { FindsmallestnumberComponent } from './components/findsmallestnumber/findsmallestnumber.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -104,7 +105,8 @@ import { FindlargestnumberComponent } from './components/findlargestnumber/findl
     AreaofcircleComponent,
     CapitalizewordComponent,
     AverageoffivenumbersComponent,
-    FindlargestnumberComponent
+    FindlargestnumberComponent,
+    FindsmallestnumberComponent
   ],
   imports: [BrowserModule, FormsModule, RouterModule.forRoot(routes)],
   providers: [],

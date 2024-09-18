@@ -48,6 +48,7 @@ import { AreaofcircleComponent } from './components/areaofcircle/areaofcircle.co
 import { CapitalizewordComponent } from './components/capitalizeword/capitalizeword.component';
 import { AverageoffivenumbersComponent } from './components/averageoffivenumbers/averageoffivenumbers.component';
 import { FindlargestnumberComponent } from './components/findlargestnumber/findlargestnumber.component';
+import { FindsmallestnumberComponent } from './components/findsmallestnumber/findsmallestnumber.component';
 
 export const routes: Routes = [
   { path: '', component: HomeComponent },
@@ -102,4 +103,5 @@ export const routes: Routes = [
   { path: 'capitalizeWord', component: CapitalizewordComponent },
   { path: 'averageOfFiveNumbers', component: AverageoffivenumbersComponent },
   { path: 'findLargestNumber', component: FindlargestnumberComponent },
+  { path: 'findSmallestNumber', component: FindsmallestnumberComponent },
 ];

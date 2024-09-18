@@ -1,0 +1,16 @@
+<header style="border-bottom: 2.5px solid black; padding: 20px 0">
+  <a [routerLink]="['']">Back to home</a>
+</header>
+
+<main>
+  <main>
+    <input type="number" placeholder="Number 1" #number1 />
+    <br />
+    <input type="number" placeholder="Number 2" #number2 />
+    <br />
+    <input type="number" placeholder="Number 3" #number3 />
+    <br />
+    <button (click)="find(number1, number2, number3)">Find</button>
+    <h1>{{ smallest }}</h1>
+  </main>
+</main>
