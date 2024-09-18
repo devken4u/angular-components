@@ -28,6 +28,7 @@ import { PalindromecheckerComponent } from './components/palindromechecker/palin
 import { TemperatureconverterComponent } from './components/temperatureconverter/temperatureconverter.component';
 import { ShoppinglistComponent } from './components/shoppinglist/shoppinglist.component';
 import { FactorialcalculatorComponent } from './components/factorialcalculator/factorialcalculator.component';
+import { TodomanagerComponent } from './components/todomanager/todomanager.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -55,6 +56,7 @@ import { FactorialcalculatorComponent } from './components/factorialcalculator/f
     TemperatureconverterComponent,
     ShoppinglistComponent,
     FactorialcalculatorComponent,
+    TodomanagerComponent
   ],
   imports: [BrowserModule, FormsModule, RouterModule.forRoot(routes)],
   providers: [],

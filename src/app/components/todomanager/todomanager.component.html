@@ -1,0 +1,16 @@
+<header style="border-bottom: 2.5px solid black; padding: 20px 0">
+  <a [routerLink]="['']">Back to home</a>
+</header>
+
+<main>
+  <input #todoInput type="text" />
+  <button (click)="add(todoInput)">Add</button>
+  <h1>Todo list</h1>
+  <ol>
+    @for (item of todoList; track $index) {
+    <li>
+      <span>{{ item }} </span> <button (click)="remove($index)">remove</button>
+    </li>
+    }
+  </ol>
+</main>
